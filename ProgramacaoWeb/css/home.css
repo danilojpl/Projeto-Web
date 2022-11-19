@@ -9,12 +9,20 @@
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.25fr 1.25fr 1.25fr 1.25fr;
+    grid-template-rows: 0.25fr 1.25fr 1.25fr 1.25fr 1.25fr;
     grid-template-areas: "search search search search"
                          "sidebar main main main"
+                         "sidebar text text text"
                          "sidebar conteudo1 conteudo2 conteudo3"
                          "sidebar footer footer footer";
-    grid-gap: 0.5em;
+    grid-gap: 0.7em;
+}
+
+#text {
+    grid-area: text;
+    background-color: rgb(61, 99, 134);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
 }
 
 #search {
@@ -67,6 +75,9 @@
     margin: 0;
   }
 
+.embed-responsive .card-img-top {
+    object-fit: cover;
+}
 
   div > img {
     display: block;
@@ -263,3 +274,5 @@ input[type="checkbox"]{
         opacity: 1;
     }
 }
+
+
