@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+h1{
+
+position: relative;
+}
+
+#telaCadastro{
+    position: relative;
+  left:500px;
+  background: #a32925;
+  border-radius: 10px;
+  padding: 40px;
+  width: min-content;
+}
+h2{
+    margin-left: 100px;
+}
+
+.botao{
+    margin-top: 10%;
+    width: 40%;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: 	#A9A9A9;
+    font-family: 'Poppins', sans-serif;
+}
