@@ -137,6 +137,10 @@ label {
     align-items: center;
 }
 
+.cadastrar:hover {
+    color: #161718;
+}
+
 .field input {
     font-size: 16px;
     line-height: 28px;

@@ -2,10 +2,11 @@
 <head>
   <meta charset="utf-8">
   <title>Cadastro Cliente</title>
-  <link rel="stylesheet" type="text/css" href="styleCadastroCliente.css">
+  <link rel="stylesheet" type="text/css" href="/ProgramacaoWeb/css/styleCadastroCliente.css">
 </head>
 
 <body>
+    <h1 class="adimoLogo"> ADIMO </h1>
   <div class="login-root">
     <div class="box-root flex-flex flex-direction--column" style="min-height: 100vh;flex-grow: 1;">
       <div class="loginbackground box-background--white padding-top--64">
@@ -46,6 +47,7 @@
         <div class="formbg-outer">
           <div class="formbg">
             <div class="formbg-inner padding-horizontal--48">
+              
               <span class="padding-bottom--15">CADASTRE-SE E CONQUISTE SEU ESPAÇO</span>
               <form id="stripe-login">
                 <div class="field padding-bottom--24">
@@ -68,13 +70,8 @@
                     <label for="senha">SENHA</label>
                     <input type="senha" name="senha">
                 </div>
-                <div class="field-padding-bottom--24">
-                    <label for="confirmar senha">CONFIRMAR SENHA</label>
-                    <input type="confirmar senha" name="confirmar senha">
-                </div>       
-
                 <div class="field padding-bottom--24">
-                  <input type="submit" name="submit" value="CADASTRAR">
+                  <input class="cadastrar" type="submit" name="submit" value="CADASTRAR">
                 </div>
                 <div class="field">
                   <a class="ssolink" href="#">Entrar com o Google</a>
